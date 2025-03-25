@@ -545,3 +545,78 @@ body {
 }
 
 /* newsletter section end here */
+
+/* footer section start here */
+.section-p1 .pic{
+  width: 70px;
+  border-radius: 50px;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #f8f8f8;
+  padding: 40px;
+  color: #333;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+footer .pic {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+footer h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+footer p, footer a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #444;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+footer a:hover, footer .follow i:hover {
+  color: #76732c;
+}
+
+footer .follow {
+  margin-top: 15px;
+}
+
+footer .follow .icon a {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #465b52;
+  transition: color 0.3s;
+}
+
+footer .copyright {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+footer .install img {
+  margin-top: 10px;
+  width: 120px;
+}
+
+
+
+/* footer section end here */
